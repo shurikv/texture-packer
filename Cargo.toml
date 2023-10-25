@@ -1,0 +1,13 @@
+[package]
+name = "texture-packer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.4", features = ["derive"] }
+image = "0.24.6"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"
+serde = "1.0.164"
+serde_derive = "1.0.164"
+tokio = { version = "1.28.2", features = ["macros", "rt-multi-thread"] }
